@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_ee3bc71ec97f4a90be0c0d6226befaae {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_ee3bc71ec97f4a90be0c0d6226befaae" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_ee3bc71ec97f4a90be0c0d6226befaae = L.map(
+        'map_ee3bc71ec97f4a90be0c0d6226befaae', {
+        center: [40.7128, -74.006],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_dc15476dad3046cb95ea9b03e7f96461 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+    
+        var marker_56874726731642f18df188f69d25b2e2 = L.marker(
+            [40.7487, -73.985721],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_24be602106204074afee64d684604cfc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6739fba8d5c54ac3bc0c700444d73fb4 = $('<div id="html_6739fba8d5c54ac3bc0c700444d73fb4" style="width: 100.0%; height: 100.0%;">POI: Empire State Building</div>')[0];
+                popup_24be602106204074afee64d684604cfc.setContent(html_6739fba8d5c54ac3bc0c700444d73fb4);
+            
+
+            marker_56874726731642f18df188f69d25b2e2.bindPopup(popup_24be602106204074afee64d684604cfc)
+            ;
+
+            
+        
+    
+        var marker_9ca7a5231c524ffc9cc27c65a4b5957e = L.marker(
+            [40.711603, -74.012653],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_797fc91adb594a4f95114bd18a8c51f5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_646e29df6047472c84f87e1e5a3babab = $('<div id="html_646e29df6047472c84f87e1e5a3babab" style="width: 100.0%; height: 100.0%;">POI: The National 9/11 Memorial </div>')[0];
+                popup_797fc91adb594a4f95114bd18a8c51f5.setContent(html_646e29df6047472c84f87e1e5a3babab);
+            
+
+            marker_9ca7a5231c524ffc9cc27c65a4b5957e.bindPopup(popup_797fc91adb594a4f95114bd18a8c51f5)
+            ;
+
+            
+        
+    
+        var marker_9205408c6d864eb797d322110160e8cd = L.marker(
+            [40.779583, -73.963201],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_b05f81c042384d3587326d9b4ef7486c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a1a5632426a45dc9b08dc5618d58d80 = $('<div id="html_9a1a5632426a45dc9b08dc5618d58d80" style="width: 100.0%; height: 100.0%;">POI: Metropolitan Museum of Art</div>')[0];
+                popup_b05f81c042384d3587326d9b4ef7486c.setContent(html_9a1a5632426a45dc9b08dc5618d58d80);
+            
+
+            marker_9205408c6d864eb797d322110160e8cd.bindPopup(popup_b05f81c042384d3587326d9b4ef7486c)
+            ;
+
+            
+        
+    
+        var marker_114d2099d0374670a52a682f7d51c8e5 = L.marker(
+            [40.782169, -73.974074],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_645178edabdd442483508f7a1fe5812e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b2a58227f78349ecb8458452130fb3a7 = $('<div id="html_b2a58227f78349ecb8458452130fb3a7" style="width: 100.0%; height: 100.0%;">POI: American Museum of Natural History</div>')[0];
+                popup_645178edabdd442483508f7a1fe5812e.setContent(html_b2a58227f78349ecb8458452130fb3a7);
+            
+
+            marker_114d2099d0374670a52a682f7d51c8e5.bindPopup(popup_645178edabdd442483508f7a1fe5812e)
+            ;
+
+            
+        
+    
+        var marker_21305f8fb5aa4887b37cf8460dc1b12b = L.marker(
+            [40.721538, -73.997714],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_a1d4b5748133414a913ab42ebe22f7e5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4ec010c50bb749559d004174133bbde5 = $('<div id="html_4ec010c50bb749559d004174133bbde5" style="width: 100.0%; height: 100.0%;">POI: Central Station</div>')[0];
+                popup_a1d4b5748133414a913ab42ebe22f7e5.setContent(html_4ec010c50bb749559d004174133bbde5);
+            
+
+            marker_21305f8fb5aa4887b37cf8460dc1b12b.bindPopup(popup_a1d4b5748133414a913ab42ebe22f7e5)
+            ;
+
+            
+        
+    
+        var marker_f428291a400a47908bb4a72ed7e835ab = L.marker(
+            [40.707663, -74.01176],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_5e4b261a96464668967051ea817a293a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b2546ccaf66f419f9d8eeadb9bb57282 = $('<div id="html_b2546ccaf66f419f9d8eeadb9bb57282" style="width: 100.0%; height: 100.0%;">POI: Wall Street Station</div>')[0];
+                popup_5e4b261a96464668967051ea817a293a.setContent(html_b2546ccaf66f419f9d8eeadb9bb57282);
+            
+
+            marker_f428291a400a47908bb4a72ed7e835ab.bindPopup(popup_5e4b261a96464668967051ea817a293a)
+            ;
+
+            
+        
+    
+        var marker_a1882532df8346658eef7fd63fffacb9 = L.marker(
+            [40.813701, -74.074457],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_1acd72f43ce842e58beadade4c5b8ad3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_93a1e103e5564b1a90a15a62d592cdd1 = $('<div id="html_93a1e103e5564b1a90a15a62d592cdd1" style="width: 100.0%; height: 100.0%;">POI: Metlife Stadium</div>')[0];
+                popup_1acd72f43ce842e58beadade4c5b8ad3.setContent(html_93a1e103e5564b1a90a15a62d592cdd1);
+            
+
+            marker_a1882532df8346658eef7fd63fffacb9.bindPopup(popup_1acd72f43ce842e58beadade4c5b8ad3)
+            ;
+
+            
+        
+    
+        var marker_0dc2329920654cb8893e86ab9c30ce70 = L.marker(
+            [40.829756, -73.926207],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_82ad38580b8242ec92170192e4e478d5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_08a36ed92ed34e819bcf1759f6a68e56 = $('<div id="html_08a36ed92ed34e819bcf1759f6a68e56" style="width: 100.0%; height: 100.0%;">POI: Yankee Stadium</div>')[0];
+                popup_82ad38580b8242ec92170192e4e478d5.setContent(html_08a36ed92ed34e819bcf1759f6a68e56);
+            
+
+            marker_0dc2329920654cb8893e86ab9c30ce70.bindPopup(popup_82ad38580b8242ec92170192e4e478d5)
+            ;
+
+            
+        
+    
+        var marker_18fb41f71c6e40e98c3450d67dceff64 = L.marker(
+            [40.774749, -73.872095],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_7ba948d8194f49198d47a84039c6277b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_093552e40a214db098a39aae5ddf2e82 = $('<div id="html_093552e40a214db098a39aae5ddf2e82" style="width: 100.0%; height: 100.0%;">POI: La Guardia Airport</div>')[0];
+                popup_7ba948d8194f49198d47a84039c6277b.setContent(html_093552e40a214db098a39aae5ddf2e82);
+            
+
+            marker_18fb41f71c6e40e98c3450d67dceff64.bindPopup(popup_7ba948d8194f49198d47a84039c6277b)
+            ;
+
+            
+        
+    
+        var marker_2b41f0b023124b049f2b27e8fe477af8 = L.marker(
+            [40.645219, -73.783117],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_089be585831542acb3d8b393478ae162 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_75e54b70e9ce4d10a5bb0e39d85fe0d8 = $('<div id="html_75e54b70e9ce4d10a5bb0e39d85fe0d8" style="width: 100.0%; height: 100.0%;">POI: JFK Airport</div>')[0];
+                popup_089be585831542acb3d8b393478ae162.setContent(html_75e54b70e9ce4d10a5bb0e39d85fe0d8);
+            
+
+            marker_2b41f0b023124b049f2b27e8fe477af8.bindPopup(popup_089be585831542acb3d8b393478ae162)
+            ;
+
+            
+        
+    
+        var marker_34b53f6a069246d2962412241131db26 = L.marker(
+            [40.696169, -74.174119],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_68d267b411cd46d8b37a55c502a19681 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3e40498372f34053852ff84445d6d2bc = $('<div id="html_3e40498372f34053852ff84445d6d2bc" style="width: 100.0%; height: 100.0%;">POI: Newark Airport</div>')[0];
+                popup_68d267b411cd46d8b37a55c502a19681.setContent(html_3e40498372f34053852ff84445d6d2bc);
+            
+
+            marker_34b53f6a069246d2962412241131db26.bindPopup(popup_68d267b411cd46d8b37a55c502a19681)
+            ;
+
+            
+        
+    
+        var marker_67605219fa96485cb8aa8fbc28e20379 = L.marker(
+            [40.758951, -73.978641],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_fbc08846b5ce43d283ccfe1ed248d079 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_baee2188388946d09bce36849d3b93d2 = $('<div id="html_baee2188388946d09bce36849d3b93d2" style="width: 100.0%; height: 100.0%;">POI: Rockfeller Center</div>')[0];
+                popup_fbc08846b5ce43d283ccfe1ed248d079.setContent(html_baee2188388946d09bce36849d3b93d2);
+            
+
+            marker_67605219fa96485cb8aa8fbc28e20379.bindPopup(popup_fbc08846b5ce43d283ccfe1ed248d079)
+            ;
+
+            
+        
+    
+        var marker_296c2c02c57345a2b292e86405aae27c = L.marker(
+            [40.763402, -73.98307],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_7e4e7a0a76f64aa882986862c18e9fd2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fb2ca386b65d47eea014b2eddf9618ec = $('<div id="html_fb2ca386b65d47eea014b2eddf9618ec" style="width: 100.0%; height: 100.0%;">POI: Broadway</div>')[0];
+                popup_7e4e7a0a76f64aa882986862c18e9fd2.setContent(html_fb2ca386b65d47eea014b2eddf9618ec);
+            
+
+            marker_296c2c02c57345a2b292e86405aae27c.bindPopup(popup_7e4e7a0a76f64aa882986862c18e9fd2)
+            ;
+
+            
+        
+    
+        var marker_5b9f429ab39b441fab37dd56ea261241 = L.marker(
+            [40.758137, -73.985553],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_ee3bc71ec97f4a90be0c0d6226befaae);
+        
+    
+            var popup_bb4d1db00af94f45bd3cb1ce3007fffb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c8d76117c4d7443c8cd41df72e2a3246 = $('<div id="html_c8d76117c4d7443c8cd41df72e2a3246" style="width: 100.0%; height: 100.0%;">POI: Times Square</div>')[0];
+                popup_bb4d1db00af94f45bd3cb1ce3007fffb.setContent(html_c8d76117c4d7443c8cd41df72e2a3246);
+            
+
+            marker_5b9f429ab39b441fab37dd56ea261241.bindPopup(popup_bb4d1db00af94f45bd3cb1ce3007fffb)
+            ;
+
+            
+        
+</script>
